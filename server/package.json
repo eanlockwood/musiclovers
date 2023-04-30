@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eanlockwood/Music-Lovers.git"
+  },
+  "author": "Ean Lockwood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eanlockwood/Music-Lovers/issues"
+  },
+  "homepage": "https://github.com/eanlockwood/Music-Lovers#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "busboy": "^1.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "node-cron": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "description": ""
+}
